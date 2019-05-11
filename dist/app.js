@@ -1,7 +1,3 @@
-var message = "Help me!";
-console.log(message);
-var episode = 4;
-console.log(episode + 1);
 var isEnoughToBeatMF = function (parsecs) {
     return parsecs < 12;
 };

@@ -1,8 +1,3 @@
-let message: string = "Help me!";
-console.log(message);
-let episode: number = 4;
-console.log(episode+1);
-
 let isEnoughToBeatMF = function (parsecs: number): boolean{
   return parsecs < 12
 }

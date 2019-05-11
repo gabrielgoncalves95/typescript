@@ -1,6 +1,8 @@
 import {Spacecraft, Containership} from './base-ships'
 import {MilleniumFalcon} from './starfighter'
+import * as _ from 'lodash'
 
+console.log(_.pad('typescript Examples', 40, '='))
 let ship = new Spacecraft('mega-prop');
 ship.jumpIntoHyperSpace();
 

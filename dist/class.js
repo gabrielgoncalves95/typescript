@@ -2,6 +2,8 @@
 exports.__esModule = true;
 var base_ships_1 = require("./base-ships");
 var starfighter_1 = require("./starfighter");
+var _ = require("lodash");
+console.log(_.pad('typescript Examples', 40, '='));
 var ship = new base_ships_1.Spacecraft('mega-prop');
 ship.jumpIntoHyperSpace();
 var falcon = new starfighter_1.MilleniumFalcon('hyper-prop');
